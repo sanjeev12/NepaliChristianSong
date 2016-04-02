@@ -2,6 +2,7 @@ package com.example.NepaliChristianSong;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class Main extends Activity {
@@ -14,5 +15,6 @@ public class Main extends Activity {
         setContentView(R.layout.main);
         TextView tx= (TextView) findViewById(R.id.text);
         tx.setText("good thing it worked");
+        Log.d("error","no error");
     }
 }
