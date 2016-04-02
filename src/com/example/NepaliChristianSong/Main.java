@@ -13,5 +13,6 @@ public class Main extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         TextView tx= (TextView) findViewById(R.id.text);
+        tx.setText("good thing it worked");
     }
 }
